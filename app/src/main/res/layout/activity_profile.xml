@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="#ffefefef" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/profile_image" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginBottom="@dimen/small_padding" android:scaleType="centerCrop" android:contentDescription="@string/pic" />
+        <View android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <TextView android:textSize="30.0sp" android:textColor="#ffffffff" android:gravity="center" android:background="#ff232323" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Martin M. Mwongera" />
+        <View android:background="@drawable/background" android:layout_width="fill_parent" android:layout_height="2.0dip" />
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="TRACK" android:layout_weight="1.0" />
+            <View android:background="@drawable/background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Android" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="COUNTRY" android:layout_weight="1.0" />
+            <View android:background="@drawable/background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Kenya" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="EMAIL" android:layout_weight="1.0" />
+            <View android:background="@drawable/background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="matt.babu.app.dev@gmail.com" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="PHONE NUMBER" android:layout_weight="1.0" />
+            <View android:background="@drawable/background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="\ 0773569997" android:layout_weight="2.0" />
+        </LinearLayout>
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:padding="@dimen/small_padding" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="18.0sp" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="SLACK USERNAME" android:layout_weight="1.0" />
+            <View android:background="@drawable/background" android:layout_width="2.0dip" android:layout_height="fill_parent" />
+            <TextView android:textSize="18.0sp" android:textColor="#ff000000" android:padding="@dimen/small_padding" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/matt_babu" android:layout_weight="2.0" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
